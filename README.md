@@ -65,8 +65,5 @@ RateHub provides role-based access for **System Administrators, Normal Users, an
 - PostgreSQL constraints for data integrity
 - Environment variables for configuration
 
-## 🔗 Repository
-
-https://github.com/nawanshu18/Roxiler-Store-Rating
 
 
