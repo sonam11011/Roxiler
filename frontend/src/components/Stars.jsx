@@ -1,0 +1,1 @@
+export default function Stars({value=0,interactive=false,onChange}){return <div className="stars" aria-label={`${value} out of 5`} >{[1,2,3,4,5].map(n=><button type="button" key={n} disabled={!interactive} className={n<=value?'active':''} onClick={()=>onChange?.(n)}>★</button>)}</div>}

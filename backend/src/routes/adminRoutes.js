@@ -1,0 +1,1 @@
+import { Router } from 'express'; import * as c from '../controllers/adminController.js'; const r=Router(); r.get('/dashboard',c.dashboard); r.get('/users',c.users); r.get('/stores',c.stores); r.get('/users/:id',c.details); r.get('/owners',c.owners); r.post('/users',c.addUser); r.post('/stores',c.addStore); export default r;

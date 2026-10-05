@@ -1,0 +1,1 @@
+import { Router } from 'express'; import * as c from '../controllers/userController.js'; const r=Router(); r.get('/profile',c.profile); r.get('/stores',c.stores); r.patch('/password',c.changePassword); export default r;
